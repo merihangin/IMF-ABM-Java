@@ -25,8 +25,8 @@ Bu proje tek bir dosya olarak organize edilmiştir:
 ## Çalıştırma
 
 1. **Önkoşullar**:
-   - Java Geliştirme Kiti (JDK) 8 veya üstünü yükleyin. 
-   - `javac` (Java derleyici) ve `java` (Java runtime) araçlarının PATH'inizde mevcut olduğundan emin olun.
+   - Java Development Kit(JDK) 8 veya üstünü yükleyin. 
+   - `javac` (Java compiler) ve `java` (Java runtime) araçlarının PATH'inizde mevcut olduğundan emin olun.
 
 2. **Kodu Derleme**:
    - Bir terminal veya komut istemi açın.
