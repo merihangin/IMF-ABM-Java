@@ -1,5 +1,5 @@
 
-# Akademik Araştırma İçin Java Simülasyon Kodu
+# Akademik Araştırma için Java Simülasyon Kodu
 
 Bu depo, Uluslararası Para Fonu (IMF) programı müzakereleri bağlamında araştırma amaçları için kullanılan Java simülasyon kodunu içermektedir. Simülasyon, hükümet bürokratları, IMF teknik kadrosu ve koalisyon ortakları gibi farklı aktörler arasındaki etkileşimleri modelleyerek, müzakereler sırasında koşullulukların kabul edilmesi veya reddedilmesini incelemektedir.
 
