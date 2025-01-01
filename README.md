@@ -1,70 +1,73 @@
 
-# Java Simulation Code for Academic Research
+# Akademik Araştırma İçin Java Simülasyon Kodu
 
-This repository contains the Java simulation code used for research purposes in the context of International Monetary Fund (IMF) program negotiations. The simulation models interactions between different actors such as government bureaucrats, IMF staff, and coalition partners to study the acceptance or rejection of conditionality during negotiations.
+Bu depo, Uluslararası Para Fonu (IMF) programı müzakereleri bağlamında araştırma amaçları için kullanılan Java simülasyon kodunu içermektedir. Simülasyon, hükümet bürokratları, IMF teknik kadrosu ve koalisyon ortakları gibi farklı aktörler arasındaki etkileşimleri modelleyerek, müzakereler sırasında koşullulukların kabul edilmesi veya reddedilmesini incelemektedir.
 
-## Purpose
 
-The code is designed to simulate the dynamics of IMF conditionality negotiations. It explores the roles of various actors, including:
-- Governments and their coalition partners
-- Country bureaucrats
-- IMF staff
+## Amaç
 
-The simulation generates data on the number of conditionalities accepted or rejected under varying parameters such as:
-- View divergence within governments
-- Contentiousness of proposed conditionalities
-- Concern levels of IMF staff
+Bu kod, IMF koşulluluğu müzakerelerinin dinamiklerini simüle etmek için tasarlanmıştır. Çeşitli aktörlerin rollerini inceler, bunlar:
+- Hükümetler ve koalisyon ortakları 
+- Ülke bürokratları 
+- IMF teknik kadrosu
+olarak kategorize edilmiştir.
 
-## Files
+Simülasyon, aşağıdaki gibi değişen parametreler altında kabul edilen veya reddedilen koşullulukların sayısına dair veriler üretir:
+- Hükümetler içindeki görüş ayrılıkları
+- Önerilen koşullulukların tartışmalı olması
+- IMF teknik kadrosunun endişe seviyeleri 
 
-This project is organized as a single file:
-- **Simulation.java**: Contains the main simulation logic and all supporting classes (e.g., `Agent`, `IMFStaff`, `Government`, etc.) in a single file.
+## Dosyalar
 
-## How to Run
+Bu proje tek bir dosya olarak organize edilmiştir:
+- **Simulation.java**: Ana simülasyon mantığını ve tüm destekleyici sınıfları(e.g., `Agent`, `IMFStaff`, `Government`, vb.) tek bir dosyada içerir.
 
-1. **Prerequisites**:
-   - Install Java Development Kit (JDK) 8 or above.
-   - Ensure that `javac` (Java compiler) and `java` (Java runtime) are available in your PATH.
+## Çalıştırma
 
-2. **Compiling the Code**:
-   - Open a terminal or command prompt.
-   - Navigate to the directory containing the `Simulation.java` file.
-   - Compile the code using:
+1. **Önkoşullar**:
+   - Java Geliştirme Kiti (JDK) 8 veya üstünü yükleyin. 
+   - `javac` (Java derleyici) ve `java` (Java runtime) araçlarının PATH'inizde mevcut olduğundan emin olun.
+
+2. **Kodu Derleme**:
+   - Bir terminal veya komut istemi açın.
+   - `Simulation.java` dosyasını içeren dizine gidin.
+   - Kodu derlemek için şu komutu kullanın:
      ```
      javac Simulation.java
      ```
 
-3. **Running the Simulation**:
-   - After successful compilation, run the simulation using:
+3. **Simülasyonu Çalıştırma**:
+   - Başarılı bir derleme sonrası, simülasyonu şu şekilde çalıştırın:
      ```
      java Simulation
      ```
 
-4. **Output**:
-   - The program will output the simulation results, including key parameters and the average number of accepted conditionalities.
+4. **Çıktı**:
+   - Program, simülasyon sonuçlarını, önemli parametreleri ve kabul edilen ortalama koşulluluk sayısını çıktı olarak verecektir. 
 
-## Key Parameters
+## Önemli Parametreler
 
-The simulation uses the following parameters:
-- `NUM_NEGOTIATED_CONDITIONALITY`: Total number of conditionalities proposed.
-- `AVG_VIEW_DIVERGENCE`: Average divergence of views among government partners.
-- `AVG_CONTENTIOUSNESS`: Average contentiousness of proposed conditionalities.
-- `CONCERN_PROBABILITY`: Probability of concerns being raised by IMF staff.
+Simülasyon, aşağıdaki parametreleri kullanır:
+- `NUM_NEGOTIATED_CONDITIONALITY`: Önerilen toplam koşulluluk sayısı.
+- `AVG_VIEW_DIVERGENCE`: Hükümet ortakları arasındaki ortalama görüş ayrılığı.
+- `AVG_CONTENTIOUSNESS`: Önerilen koşullulukların ortalama tartışmalılığı.
+- `CONCERN_PROBABILITY`: IMF teknik kadrosu tarafından endişelerin dile getirilme olasılığı.
 
-These parameters can be modified within the `Simulation` class to observe their effects on the outcomes.
+Bu parametreler, sonuçları gözlemlemek için `Simulation` sınıfı içinde değiştirilebilir. 
 
-## Citation
+## Atıf
 
-If you use this code for academic purposes, please cite the related paper:
+Bu kodu akademik amaçlarla kullanıyorsanız, ilgili çalışmayı lütfen aşağıdaki şekilde alıntılayın:
 
-> [Edited Volume name]  
-> [Merih Angin]  
-> [Chapter name], [2025]
 
-## License
+> [Cilt adı]  
+> [Merih Angın]  
+> [Bölüm adı], [2025]
+
+## Lisans
 
 This code is distributed under the [MIT License](https://opensource.org/licenses/MIT).
 
 ---
 
-For questions or feedback, please contact angin.merih@gmail.com.
+Soru veya geri bildirim için lütfen angin.merih@gmail.com adresi ile iletişime geçiniz.
