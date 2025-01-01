@@ -66,7 +66,7 @@ Bu kodu akademik amaçlarla kullanıyorsanız, ilgili çalışmayı lütfen aşa
 
 ## Lisans
 
-This code is distributed under the [MIT License](https://opensource.org/licenses/MIT).
+Bu kod, [MIT License](https://opensource.org/licenses/MIT). altında dağıtılmaktadır.
 
 ---
 
